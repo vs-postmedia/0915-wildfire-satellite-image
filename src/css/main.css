@@ -8,7 +8,6 @@
 #app {
 	margin: 0 auto;
 	max-width: 750px;
-	overflow-y: auto;
 }
 #app #grid {
 	display: flex;
