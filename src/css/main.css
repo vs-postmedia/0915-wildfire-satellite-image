@@ -8,6 +8,7 @@
 #app {
 	margin: 0 auto;
 	max-width: 750px;
+	overflow-y: auto;
 }
 #app #grid {
 	display: flex;
@@ -46,17 +47,20 @@
 #app .aqhi.eight {
 	color: #FD0000;
 }
+#app .aqhi.nine {
+	color: #CC0000;
+}
 #app .aqhi.ten {
 	color: #660000;
 }
 #app .labels {
 	height: 100%;
+	pointer-events: none;
 	position: relative;
 	width: 100%;
 }
 #app .date {
-	color: var(--black01);
-	/*text-transform: uppercase;*/
+	color: var(--black);
 }
 
 
@@ -64,7 +68,6 @@
 	color: #FFF;
 	position: absolute;
 	text-shadow: 1px 1px 7px var(--black);
-	/*text-shadow: var(--black01) 2px 0 10px;*/
 	z-index: 10;
 }
 #app .labels #metro {
@@ -130,6 +133,7 @@
 #app .credit {
 	color: var(--grey02);
 	font-size: 0.8rem;
+	cursor: pointer;
 }
 
 #app .credit {
