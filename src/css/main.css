@@ -119,6 +119,12 @@
 	margin: 0;
 }
 
+#app .subhead {
+	color: #231F20;
+	font-family: Shift-Book, Times, serif;
+	line-height: 1.5;
+}
+
 #app footer {
 	display: flex;
 }

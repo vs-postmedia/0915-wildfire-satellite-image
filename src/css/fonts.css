@@ -1,10 +1,17 @@
 /* SHIFT */
 @font-face {
+	font-family: 'Shift-Book';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Shift-Book.otf') format('opentype')
+}
+@font-face {
 	font-family: 'Shift-Bold';
 	font-style: normal;
 	font-weight: 400;
 	src: url('../fonts/Shift-Bold.otf') format('opentype')
 }
+
 @font-face {
 	font-family: 'Shift-BoldItalic';
 	font-style: italic;
